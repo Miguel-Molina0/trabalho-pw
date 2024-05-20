@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="TelaCadastro.css">
+</head>
+<body>
+    <header class="header">
+        <p class="titulo">Cadastro</p>
+            <nav>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="TelaCadastro.html">Cadastro</a></li>
+                    <li><a href="TelaLogin.html">Login</a></li>
+                </ul>
+            </nav>    
+    </header>
+    <main class="main">
+        <div class="AreaFormulario">
+            <p class="tituloForm">Preencha o formulário</p>
+            <form>
+                <div class="form">
+                    <div class="formSuperior">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="input" id="nome" name="nome" placeholder="Insira seu nome" required>
+                        <br>
+                        <label for="data">Data:</label>
+                        <input type="date" class="input" id="data" name="data" required>
+                        <br>
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" class="input" id="endereco" name="endereco" placeholder="Insira seu endereço" required>
+                    </div>
+                </div>
+                <div class="interesses">
+                    <p class="tituloInteresses">Interesses</p>
+                    <label><input type="checkbox" name="interesse" value="Ciências"> Ciências</label>
+                    <label><input type="checkbox" name="interesse" value="tecnologia"> tecnologia</label>
+                    <label><input type="checkbox" name="interesse" value="história"> história</label>
+                    <label><input type="checkbox" name="interesse" value="filosofia"> filosofia</label><br>
+                    <label><input type="checkbox" name="interesse" value="espiritualidade"> espiritualidade</label>
+                    <label><input type="checkbox" name="interesse" value="Gastronomia"> ecônomia</label>    
+                </div>
+                <div class="botaos">
+                    <a href="TelaLogin.html" class="btn btn-warning">Cadastrar</a>
+                </div>
+            </form>
+          </div>
+    </main>
+    <footer class="footer">
+        <ul> 
+            <p>Gustavo</p>
+            <p>Miguel</p>
+            <p>Mauro</p>
+            <p>Júlia</p>
+        </ul>  
+    </footer>
+</body>
+</html>
